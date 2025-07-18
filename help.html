@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caawimaad - BAGAX RESTAURANT</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <style>
+        :root {
+            --main-bg: #f6f7f2;
+            --primary: #184d47;
+            --accent: #ffd700;
+            --secondary: #f3eac2;
+            --text: #222;
+            --highlight: #e67e22;
+        }
+        body {
+            background: linear-gradient(120deg, var(--main-bg) 0%, var(--secondary) 100%);
+            color: var(--text);
+        }
+        nav.navbar, footer {
+            background: var(--primary) !important;
+            color: #fff;
+        }
+        nav a, .navbar-brand {
+            color: var(--accent) !important;
+        }
+        nav a.nav-link.active, nav a.nav-link:hover {
+            background: var(--accent);
+            color: var(--primary) !important;
+            border-radius: 8px;
+        }
+        .hero-section {
+            background: linear-gradient(120deg, var(--secondary) 0%, var(--main-bg) 100%);
+        }
+        .hero-section h1, .hero-section em, .hero-section p {
+            color: var(--primary) !important;
+        }
+        .btn.custom-btn {
+            background: var(--accent) !important;
+            color: var(--primary) !important;
+            border: 2px solid var(--primary);
+            border-radius: 8px;
+            font-weight: bold;
+            transition: background 0.2s, color 0.2s;
+        }
+        .btn.custom-btn:hover {
+            background: var(--primary) !important;
+            color: #fff !important;
+        }
+        .info-section {
+            background: #fff;
+            border-radius: 20px;
+            box-shadow: 0 4px 24px rgba(24,77,71,0.10);
+            padding: 40px 30px;
+            margin: 30px auto;
+            max-width: 900px;
+        }
+        .info-section h2 {
+            color: var(--primary);
+        }
+        .info-section ul {
+            color: var(--primary);
+            font-size: 1.1em;
+        }
+        footer {
+            background: var(--primary) !important;
+            color: #fff;
+            text-align: center;
+            padding: 16px 0;
+            border-radius: 20px 20px 0 0;
+            box-shadow: 0 -2px 8px rgba(24,77,71,0.07);
+            font-size: 1em;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg" style="background:#b85c38;">
+        <a class="navbar-brand d-flex align-items-center" href="index.html" style="color:#fff;font-weight:bold;">BAGAX RESTAURANT</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-lg-auto">
+                <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="gallery.html">Gallery</a></li>
+                <li class="nav-item"><a class="nav-link" href="booking.html">Booking</a></li>
+                <li class="nav-item"><a class="nav-link" href="help.html">Help</a></li>
+                <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+            </ul>
+        </div>
+    </nav>
+    <main>
+        <section class="hero-section d-flex justify-content-center align-items-center" style="background:linear-gradient(120deg,#fff3e0 0%,#ffe0b2 100%);min-height:40vh;">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-7 col-12 mx-auto text-center">
+                        <em class="small-text" style="color:#b85c38;font-style:italic;">Caawimaad & Tilmaamo</em>
+                        <h1 style="color:#b85c38;font-size:2.5rem;font-weight:bold;">Sida Loo Adeegsado Website-ka</h1>
+                        <p class="mb-4 pb-lg-2" style="color:#b85c38;font-size:1.1rem;">Ka hel jawaabaha su'aalaha caadiga ah oo baro sida ugu fiican ee aad uga faa'iidaysan karto BAGAX RESTAURANT.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="info-section" style="background:#fff3e0;border-radius:20px;box-shadow:0 4px 24px rgba(184,92,56,0.10);padding:40px 30px;margin:30px auto;max-width:900px;">
+            <h2 style="color:#b85c38;">Tilmaamaha Website-ka</h2>
+            <ul style="color:#b85c38;font-size:1.1em;">
+                <li><strong>Liiska Navigation-ka:</strong> Isticmaal liiska kore si aad u booqato bogagga Hore, Sawirro, Qabsasho, Caawimaad, iyo Nagu Saabsan.</li>
+                <li><strong>Foomka Qabsashada:</strong> Buuxi faahfaahintaada, dooro tirada martida, taariikhda, iyo waqtiga, sidoo kale ku dar codsi gaar ah haddii ay jirto. Dhammaan meelaha loo baahan yahay waa in la buuxiyaa.</li>
+                <li><strong>Sawirrada:</strong> Daawo cuntooyinka ugu caansan oo eeg faahfaahinta miiska xogta. Dul istaag safafka miiska iyo sawirrada si aad u aragto saameyn muuqaal ah. Guji xiriiriyeyaasha dibadda si aad u hesho macluumaad dheeraad ah.</li>
+                <li><strong>Miiska & Sawirrada:</strong> La falgal miiska iyo sawirrada si aad u hesho faahfaahin dheeraad ah iyo saameyn muuqaal ah.</li>
+            </ul>
+        </section>
+    </main>
+    <footer style="background:#b85c38;color:#fff;text-align:center;padding:16px 0;border-radius:20px 20px 0 0;box-shadow:0 -2px 8px rgba(184,92,56,0.07);font-size:1em;">
+        <p>&copy; 2025 BAGAX RESTAURANT. Xuquuqdu way dhowrsan tahay.</p>
+    <footer>
+        <p>&copy; 2025 BAGAX RESTAURANT. Xuquuqdu way dhowrsan tahay.</p>
+    </footer>

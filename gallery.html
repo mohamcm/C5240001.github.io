@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sawirro & Xog - BAGAX RESTAURANT</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <style>
+        :root {
+            --main-bg: #f6f7f2;
+            --primary: #184d47;
+            --accent: #ffd700;
+            --secondary: #f3eac2;
+            --text: #222;
+            --highlight: #e67e22;
+        }
+        body {
+            background: linear-gradient(120deg, var(--main-bg) 0%, var(--secondary) 100%);
+            color: var(--text);
+        }
+        nav.navbar, footer {
+            background: var(--primary) !important;
+            color: #fff;
+        }
+        nav a, .navbar-brand {
+            color: var(--accent) !important;
+        }
+        nav a.nav-link.active, nav a.nav-link:hover {
+            background: var(--accent);
+            color: var(--primary) !important;
+            border-radius: 8px;
+        }
+        .hero-section {
+            background: linear-gradient(120deg, var(--secondary) 0%, var(--main-bg) 100%);
+        }
+        .hero-section h1, .hero-section em, .hero-section p {
+            color: var(--primary) !important;
+        }
+        .btn.custom-btn {
+            background: var(--accent) !important;
+            color: var(--primary) !important;
+            border: 2px solid var(--primary);
+            border-radius: 8px;
+            font-weight: bold;
+            transition: background 0.2s, color 0.2s;
+        }
+        .btn.custom-btn:hover {
+            background: var(--primary) !important;
+            color: #fff !important;
+        }
+        .gallery-section {
+            background: #fff;
+            border-radius: 20px;
+            box-shadow: 0 4px 24px rgba(24,77,71,0.10);
+            padding: 40px 30px;
+            margin: 30px auto;
+            max-width: 900px;
+        }
+        .gallery-section h2, .gallery-section h3 {
+            color: var(--primary);
+        }
+        .perfume-gallery img {
+            border: 3px solid var(--accent);
+            box-shadow: 0 2px 12px rgba(24,77,71,0.10);
+        }
+        .perfume-table th {
+            background: var(--primary);
+            color: #fff;
+        }
+        .perfume-table tr:nth-child(even) {
+            background: var(--secondary);
+        }
+        .perfume-table tr:hover {
+            background: var(--accent);
+            color: var(--primary);
+        }
+        .external-links a {
+            color: var(--primary);
+            text-decoration: underline;
+            margin: 0 10px;
+            font-weight: 600;
+            transition: color 0.2s;
+        }
+        .external-links a:hover {
+            color: var(--accent);
+        }
+        footer {
+            background: var(--primary) !important;
+            color: #fff;
+            text-align: center;
+            padding: 16px 0;
+            border-radius: 20px 20px 0 0;
+            box-shadow: 0 -2px 8px rgba(24,77,71,0.07);
+            font-size: 1em;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg" style="background:#b85c38;">
+        <div class="container">
+        <a class="navbar-brand d-flex align-items-center" href="index.html">BAGAX RESTAURANT</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-lg-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="gallery.html">Gallery</a></li>
+                    <li class="nav-item"><a class="nav-link" href="booking.html">Booking</a></li>
+                    <li class="nav-item"><a class="nav-link" href="help.html">Help</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                </ul>
+                <!-- Book a Table button removed -->
+            </div>
+        </div>
+    </nav>
+    <main>
+        <section class="hero-section d-flex justify-content-center align-items-center" style="background:linear-gradient(120deg,#fff3e0 0%,#ffe0b2 100%);min-height:40vh;">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-7 col-12 mx-auto text-center">
+                        <em class="small-text" style="color:#b85c38;font-style:italic;">Sawirradeena</em>
+                        <h1 style="color:#b85c38;font-size:2.5rem;font-weight:bold;">Daawo Cuntooyinka Ugu Caansan</h1>
+                        <p class="mb-4 pb-lg-2" style="color:#b85c38;font-size:1.1rem;">Soo ogow cuntooyinka ugu macaan ee laga helo BAGAX RESTAURANT.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="gallery-section" style="background:#fff3e0;border-radius:20px;box-shadow:0 4px 24px rgba(184,92,56,0.10);padding:40px 30px;margin:30px auto;max-width:900px;">
+            <h2 style="color:#b85c38;">Sawirrada Cuntada</h2>
+            <div class="perfume-gallery" style="display:flex;gap:30px;justify-content:center;margin-bottom:30px;">
+                <img src="images/doro.jpg" alt="Grilled Chicken Dish" style="width:180px;height:220px;object-fit:cover;border-radius:16px;box-shadow:0 2px 12px rgba(184,92,56,0.10);">
+                <img src="images/salad.jpg" alt="Fresh Salad Bowl" style="width:180px;height:220px;object-fit:cover;border-radius:16px;box-shadow:0 2px 12px rgba(184,92,56,0.10);">
+                <img src="images/pasta.jpg" alt="Delicious Pasta Plate" style="width:180px;height:220px;object-fit:cover;border-radius:16px;box-shadow:0 2px 12px rgba(184,92,56,0.10);">
+            </div>
+            <h3 style="color:#b85c38;">Cuntooyinka Ugu Iibka Badan</h3>
+            <table class="perfume-table" style="width:100%;border-collapse:collapse;margin-bottom:20px;font-size:1.1em;">
+                <thead>
+                    <tr style="background:#b85c38;color:#fff;">
+                        <th>Magaca Cuntada</th>
+                        <th>Qiimaha</th>
+                        <th>Caannimada</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr style="background:#fff8f0;">
+                        <td>Digaag La Dubay</td>
+                        <td>$15</td>
+                        <td>★★★★★</td>
+                    </tr>
+                    <tr style="background:#ffe0b2;">
+                        <td>Saladh Beereed</td>
+                        <td>$10</td>
+                        <td>★★★★☆</td>
+                    </tr>
+                    <tr style="background:#fff8f0;">
+                        <td>Baasto Alfredo Kareem ah</td>
+                        <td>$13</td>
+                        <td>★★★★★</td>
+                    </tr>
+                </tbody>
+            </table>
+            
+        </section>
+    </main>
+    <footer style="background:#b85c38;color:#fff;text-align:center;padding:16px 0;border-radius:20px 20px 0 0;box-shadow:0 -2px 8px rgba(184,92,56,0.07);font-size:1em;">
+        <p>&copy; 2025 BAGAX RESTAURANT. Xuquuqdu way dhowrsan tahay.</p>
+    </footer>
+        <p>&copy; 2025 BAGAX RESTAURANT. Xuquuqdu way dhowrsan tahay.</p>
+    </footer>

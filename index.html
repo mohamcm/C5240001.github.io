@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BAGAX RESTAURANT - Bogga Hore</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <style>
+        :root {
+            --main-bg: #f6f7f2;
+            --primary: #184d47;
+            --accent: #ffd700;
+            --secondary: #f3eac2;
+            --text: #222;
+            --highlight: #e67e22;
+        }
+        body {
+            background: linear-gradient(120deg, var(--main-bg) 0%, var(--secondary) 100%);
+            color: var(--text);
+        }
+        nav.navbar, footer {
+            background: var(--primary) !important;
+            color: #fff;
+        }
+        nav a, .navbar-brand {
+            color: var(--accent) !important;
+        }
+        nav a.nav-link.active, nav a.nav-link:hover {
+            background: var(--accent);
+            color: var(--primary) !important;
+            border-radius: 8px;
+        }
+        .hero-section {
+            background: linear-gradient(120deg, var(--secondary) 0%, var(--main-bg) 100%);
+        }
+        .hero-section h1, .hero-section em, .hero-section p {
+            color: var(--primary) !important;
+        }
+        .btn.custom-btn {
+            background: var(--accent) !important;
+            color: var(--primary) !important;
+            border: 2px solid var(--primary);
+            border-radius: 8px;
+            font-weight: bold;
+            transition: background 0.2s, color 0.2s;
+        }
+        .btn.custom-btn:hover {
+            background: var(--primary) !important;
+            color: #fff !important;
+        }
+        .info-section {
+            background: #fff;
+            border-radius: 16px;
+            margin: 30px auto 0 auto;
+            padding: 30px 24px;
+            max-width: 700px;
+            box-shadow: 0 2px 12px rgba(24,77,71,0.08);
+        }
+        .info-section h2 {
+            color: var(--primary);
+        }
+        .info-section ul {
+            color: var(--primary);
+            font-size: 1.1em;
+        }
+        .contact-section {
+            background: var(--secondary);
+            border-radius: 16px;
+            margin: 30px auto 0 auto;
+            padding: 24px 20px;
+            max-width: 700px;
+            color: var(--primary);
+            box-shadow: 0 2px 12px rgba(24,77,71,0.08);
+        }
+        .contact-section h2 {
+            color: var(--primary);
+        }
+        .highlight {
+            font-weight: bold;
+            color: var(--highlight);
+        }
+        footer {
+            background: var(--primary) !important;
+            color: #fff;
+            text-align: center;
+            padding: 16px 0;
+            border-radius: 20px 20px 0 0;
+            box-shadow: 0 -2px 8px rgba(24,77,71,0.07);
+            font-size: 1em;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg" style="background:#b85c38;">
+        <a class="navbar-brand d-flex align-items-center" href="index.html" style="color:#fff;font-weight:bold;">BAGAX RESTAURANT</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-lg-auto">
+                <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="gallery.html">Gallery</a></li>
+                <li class="nav-item"><a class="nav-link" href="booking.html">Booking</a></li>
+                <li class="nav-item"><a class="nav-link" href="help.html">Help</a></li>
+                <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+            </ul>
+        </div>
+    </nav>
+    </nav>
+    <main>
+        <section class="hero-section d-flex justify-content-center align-items-center" style="background:linear-gradient(120deg,#fff3e0 0%,#ffe0b2 100%);min-height:60vh;">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-7 col-12 mx-auto text-center">
+                        <em class="small-text" style="color:#b85c38;font-style:italic;">Ku soo dhawoow BAGAX RESTAURANT</em>
+                        <h1 style="color:#b85c38;font-size:3rem;font-weight:bold;">Dhadhami Cuntooyinka Ugu Fiican</h1>
+                        <p class="mb-4 pb-lg-2" style="color:#b85c38;font-size:1.3rem;">Soo hel dhadhanka cuntooyinka kala duwan iyo jawi diirran. Waxaan isku darnaa dhaqanka karinta iyo casriyeynta si aan kuu siino waayo-aragnimo aan la ilaawi karin BAGAX RESTAURANT.</p>
+                        <a class="btn custom-btn custom-border-btn me-3" href="gallery.html" style="background:#b85c38;color:#fff;font-weight:bold;">Daawo Sawirrada</a>
+                        <a class="btn custom-btn me-2 mb-2" href="booking.html" style="background:#fff;color:#b85c38;font-weight:bold;">Meel Qabsasho</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="info-section">
+            <h2>Maxaad Noogu Soo Xulanaysaa?</h2>
+            <ul>
+                <li>Waxaan isticmaalnaa cuntooyin cusub oo tayo sare leh oo ay diyaariyaan cunto kariyayaal khibrad leh</li>
+                <li>Cuntooyinka ugu caansan waxaa ka mid ah <span class="highlight">Digaag La Dubay</span>, <span class="highlight">Baasto Alfredo Kareem ah</span>, iyo <span class="highlight">Saladh Beereed</span></li>
+                <li>Jawi qoys iyo saaxiibtinimo leh oo leh qurxin casri ah</li>
+                <li>Adeeg degdeg ah oo saaxiibtinimo leh</li>
+                <li>Xaflado iyo dalabyo gaar ah oo kooxeed waa la heli karaa</li>
+            </ul>
+        </section>
+        <section class="info-section">
+            <h2>Cuntooyinka Ugu Muhiimsan</h2>
+            <ul>
+                <li><span class="highlight">Bilow:</span> Rooti Toos ah, Maraq Maalinle ah, Saladh cusub</li>
+                <li><span class="highlight">Cuntooyinka waaweyn:</span> Digaag la dubay, Baasto Alfredo Kareem ah, Beef Steak kulul</li>
+                <li><span class="highlight">Macmacaanka:</span> Keeg Shukulaato ah, Tarte miro leh, Jalaato</li>
+                <li><span class="highlight">Cabitaannada:</span> Cabitaanno miro cusub, Kafeega, Cabitaanno fudud</li>
+            </ul>
+        </section>
+        <section class="contact-section">
+            <h2>Xiriir & Goobta</h2>
+            <p>Bartamaha Magaalada Mogdishu</p>
+            <p>Telefoon: <a href="tel:+252613092316" style="color:#b85c38; text-decoration:underline;">+252 61 2345678</a></p>
+            <p>Email: <a href="mailto:info@bagax.com" style="color:#b85c38; text-decoration:underline;">info@bagax.com</a></p>
+            <p>Furitaan: 10:00 subaxnimo – 11:00 habeenimo (Isniin-Axad)</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 BAGAX RESTAURANT. Xuquuqdu way dhowrsan tahay.</p>
+    </footer>
+</body>
+</html>
